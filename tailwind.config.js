@@ -1,11 +1,28 @@
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  purge: ["./src/**/*.{js,ts,jsx,tsx}"],
+  darkMode: "media",
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        title: [
+          "Carter One",
+          "ui-monospace",
+          "SFMono-Regular",
+          "Menlo",
+          "Monaco",
+          "Consolas",
+          "Liberation Mono",
+          "Courier New",
+          "monospace"
+        ]
+      }
+    }
   },
   variants: {
-    extend: {},
+    extend: {
+      opacity: ["dark"],
+      fontWeight: ["dark"]
+    }
   },
-  plugins: [],
-}
+  plugins: []
+};

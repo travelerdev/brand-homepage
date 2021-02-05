@@ -1,3 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a.notable-link {
+  @apply text-indigo-600 dark:text-blue-300 inline-flex items-center;
+  @apply transition-opacity duration-200 ease-in-out;
+  @apply opacity-100;
+}
+
+a.notable-link:hover {
+  @apply opacity-70;
+}
+
+/* Feature Dot Colors */
+
+.feature-indigo {
+  @apply bg-indigo-400 border-indigo-500;
+}
+
+.feature-purple {
+  @apply bg-purple-500 border-purple-600;
+}
+
+.feature-amber {
+  @apply bg-yellow-400 border-yellow-500;
+}
+
+.feature-blue {
+  @apply bg-blue-400 border-blue-500;
+}
+
+.feature-gray {
+  @apply bg-gray-400 border-gray-500;
+}
+
+.feature-green {
+  @apply bg-green-400 border-green-500;
+}
