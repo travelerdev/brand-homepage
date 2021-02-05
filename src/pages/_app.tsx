@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           <script
             async
             defer
-            data-domain="convertify.photos"
+            data-domain="traveler.dev"
             src="https://plausible.io/js/plausible.js"
           />
         )}
