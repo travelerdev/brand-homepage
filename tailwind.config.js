@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         title: [
-          "Carter One",
+          "PT Sans",
           "ui-monospace",
           "SFMono-Regular",
           "Menlo",
