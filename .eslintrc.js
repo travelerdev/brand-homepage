@@ -20,11 +20,6 @@ module.exports = {
     "react/jsx-wrap-multilines": [0],
     "react/jsx-props-no-spreading": [0],
     "no-param-reassign": ["error", { props: true, ignorePropertyModificationsFor: ["state"] }],
-    "jsx-a11y/anchor-is-valid": [
-      "error",
-      {
-        components: ["Link", "LinkTo"]
-      }
-    ]
+    "jsx-a11y/anchor-is-valid": ["off"]
   }
 };

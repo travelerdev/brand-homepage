@@ -1,9 +1,9 @@
 import Head from "next/head";
 import React from "react";
-import ImagePane from "../ImagePane";
-import ProductsSection from "../ProductsSection";
-import StatusSection from "../StatusSection";
-import TeamSection from "../TeamSection";
+import ImagePane from "../components/ImagePane";
+import ProductsSection from "../components/ProductsSection";
+import StatusSection from "../components/StatusSection";
+import TeamSection from "../components/TeamSection";
 
 export default function Home() {
   return (
