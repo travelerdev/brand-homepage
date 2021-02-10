@@ -10,7 +10,8 @@ const ImagePane = () => {
           src="/img/globe.svg"
         />
       </div>
-      <h1 className="font-title text-5xl xl:text-6x">Traveler Dev</h1>
+      <h1 className="font-title font-bold text-5xl xl:text-6x">Traveler Dev</h1>
+      <p className="font-title mt-3 text-xl text-gray-500">Quality software will travel</p>
     </div>
   );
 };

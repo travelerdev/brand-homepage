@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React from "react";
+import Footer from "../components/Footer";
 import ImagePane from "../components/ImagePane";
 import ProductsSection from "../components/ProductsSection";
 import StatusSection from "../components/StatusSection";
@@ -22,9 +23,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <footer className="container mx-auto flex-shrink flex flex-row justify-center align-center my-8 text-gray-600 dark:text-gray-300">
-        <p className="text-sm">&copy; 2021 Traveler Dev Ltd. - Registered in England 13120175</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

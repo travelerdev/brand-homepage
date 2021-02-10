@@ -24,5 +24,5 @@ module.exports = {
       fontWeight: ["dark"]
     }
   },
-  plugins: []
+  plugins: [require("@tailwindcss/typography")]
 };

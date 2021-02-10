@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400,700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -38,4 +38,23 @@ a.notable-link:hover {
 
 .feature-green {
   @apply bg-green-400 border-green-500;
+}
+
+.colorful,
+.colorful .colorful-shadow {
+  @apply text-gray-900 transition-colors duration-300 ease-in-out;
+}
+
+.colorful .colorful-shadow {
+  @apply bg-purple-100;
+  @apply bg-opacity-0;
+}
+
+.colorful:hover {
+  @apply text-purple-500;
+}
+
+.colorful:hover .colorful-shadow {
+  @apply text-purple-800;
+  @apply bg-purple-100;
 }
