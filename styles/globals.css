@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 a.notable-link {
-  @apply text-indigo-600 dark:text-blue-300 inline-flex items-center;
+  @apply text-indigo-600 inline-flex items-center;
   @apply transition-opacity duration-200 ease-in-out;
   @apply opacity-100;
 }
