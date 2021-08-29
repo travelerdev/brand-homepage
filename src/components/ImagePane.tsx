@@ -4,11 +4,13 @@ import React from "react";
 const ImagePane = () => {
   return (
     <div className="lg:w-1/2 w-full my-10 lg:my-0 flex flex-col-reverse lg:flex-col items-center justify-center">
-      <div className="flex-shrink w-full md:max-w-sm">
+      <div className="w-full md:max-w-sm relative text-current h-56">
         <Image
           alt="Traveler's Happy Globe"
-          className="object-contain object-center h-full w-full text-current"
           src="/img/globe.svg"
+          layout="fill"
+          objectFit="contain"
+          objectPosition="center"
         />
       </div>
       <h1 className="font-title font-bold text-5xl xl:text-6x">Traveler Dev</h1>
