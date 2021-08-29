@@ -4,8 +4,8 @@ import React, { useEffect, useState } from "react";
 import { DescriptionSection, DescriptionTitle } from "./DescriptionSection";
 
 const StatusSection = () => {
-  const loc = "London, UK";
-  const tz = "Europe/London";
+  const loc = "Paris, France";
+  const tz = "Europe/Paris";
 
   const [blinkOn, setBlinkOn] = useState(true);
   const [currentTime, setCurrentTime] = useState<DateTime | undefined>(undefined);
