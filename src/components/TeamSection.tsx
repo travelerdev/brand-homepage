@@ -39,10 +39,6 @@ const TeamSection = () => {
         <DescriptionLink className="mt-3" href="https://zack.computer">
           Who&rsquo;s Zack?
         </DescriptionLink>
-        <br />
-        <DescriptionLink className="mt-3" href="mailto:zack@traveler.dev">
-          Send an email
-        </DescriptionLink>
       </div>
     </DescriptionSection>
   );
