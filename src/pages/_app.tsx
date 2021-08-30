@@ -37,7 +37,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
 
         <meta name="theme-color" content="#2563EB" />
-        <meta name="color-scheme" content="light dark" />
       </Head>
       <Component {...pageProps} />
     </>
