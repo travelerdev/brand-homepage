@@ -21,7 +21,8 @@
     "noEmit": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "strict": false
+    "strict": true,
+    "incremental": true
   },
   "include": ["./src/**/*", "next-env.d.ts"],
   "exclude": ["node_modules"]
