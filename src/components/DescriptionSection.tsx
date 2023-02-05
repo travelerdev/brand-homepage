@@ -30,8 +30,8 @@ export const DescriptionLink = ({
   children,
   className
 }: PropsWithChildren<{ href: string; className?: string }>) => (
-  <Link href={href}>
-    <a className={classnames([className, "notable-link"])}>
+  <Link href={href} className={classnames([className, "notable-link"])}>
+    <>
       {children}
       <svg
         fill="none"
@@ -44,6 +44,6 @@ export const DescriptionLink = ({
       >
         <path d="M5 12h14M12 5l7 7-7 7" />
       </svg>
-    </a>
+    </>
   </Link>
 );
