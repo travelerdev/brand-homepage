@@ -1,4 +1,3 @@
-import React from "react";
 import { DescriptionLink, DescriptionSection, DescriptionTitle } from "./DescriptionSection";
 
 const ProductsSection = () => {

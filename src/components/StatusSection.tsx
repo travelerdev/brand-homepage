@@ -1,6 +1,6 @@
 import classnames from "classnames";
 import { DateTime } from "luxon";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { DescriptionSection, DescriptionTitle } from "./DescriptionSection";
 
 const StatusSection = () => {

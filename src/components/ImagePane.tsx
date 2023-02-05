@@ -1,4 +1,3 @@
-import React from "react";
 import Globe from "../../public/img/globe.svg";
 
 const ImagePane = () => {

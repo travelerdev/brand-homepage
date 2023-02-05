@@ -1,6 +1,6 @@
 import classnames from "classnames";
 import Link from "next/link";
-import React, { PropsWithChildren, ReactChild } from "react";
+import { PropsWithChildren, ReactChild } from "react";
 
 interface Props {
   icon: ReactChild;

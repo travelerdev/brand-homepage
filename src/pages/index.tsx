@@ -1,5 +1,4 @@
 import Head from "next/head";
-import React from "react";
 import Footer from "../components/Footer";
 import ImagePane from "../components/ImagePane";
 import ProductsSection from "../components/ProductsSection";
