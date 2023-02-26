@@ -1,20 +1,12 @@
 import { AppProps } from "next/app";
 import Head from "next/head";
+import Script from "next/script";
 import "../../styles/globals.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        {process.env.NODE_ENV !== "development" && (
-          <script
-            async
-            defer
-            data-domain="traveler.dev"
-            src="https://plausible.io/js/plausible.js"
-          />
-        )}
-
         <link rel="manifest" href="/favicon/site.webmanifest" />
         <link
           rel="alternate icon"
@@ -39,6 +31,12 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="theme-color" content="#2563EB" />
       </Head>
       <Component {...pageProps} />
+      <Script
+        async
+        defer
+        data-website-id="5027eb0b-e9bf-45d0-aef5-e49c44423fdf"
+        src="https://analytics.traveler.dev/umami.js"
+      />
     </>
   );
 }

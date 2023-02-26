@@ -10,7 +10,7 @@ export default function Footer() {
             <Globe width={40} className="text-black" />
           </div>
           <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">
-            © 2021 Traveler Dev Ltd (Registered England 13120175)
+            © Traveler Dev Ltd (Registered England 13120175)
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 items-center justify-center sm:justify-start">
             <Link href="/support" className="ml-3 text-gray-500 font-bold">
