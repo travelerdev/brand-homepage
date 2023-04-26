@@ -35,7 +35,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         async
         defer
         data-website-id="5027eb0b-e9bf-45d0-aef5-e49c44423fdf"
-        src="https://analytics.traveler.dev/umami.js"
+        src="https://analytics.traveler.dev/script.js"
       />
     </>
   );
