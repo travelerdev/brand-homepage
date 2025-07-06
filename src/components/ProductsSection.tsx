@@ -1,4 +1,8 @@
-import { DescriptionLink, DescriptionSection, DescriptionTitle } from "./DescriptionSection";
+import {
+  DescriptionLink,
+  DescriptionSection,
+  DescriptionTitle
+} from "./DescriptionSection";
 
 const ProductsSection = () => {
   return (
@@ -37,15 +41,21 @@ const ProductsSection = () => {
       <DescriptionTitle>The Products</DescriptionTitle>
       <ul className="lg:pl-8 lg:list-disc">
         <li>
-          <DescriptionLink href="https://www.tweetsweep.app">Tweet Sweep</DescriptionLink>
+          <DescriptionLink href="https://www.tweetsweep.app">
+            Tweet Sweep
+          </DescriptionLink>
           <p>Delete your old tweets and keep your feed clean</p>
         </li>
         <li>
-          <DescriptionLink href="https://www.watchthatname.com">Watch That Name</DescriptionLink>
+          <DescriptionLink href="https://www.watchthatname.com">
+            Watch That Name
+          </DescriptionLink>
           <p>Maintain a wishlist of your favorite domains</p>
         </li>
         <li>
-          <DescriptionLink href="https://www.phototamer.app">Photo Tamer</DescriptionLink>
+          <DescriptionLink href="https://www.phototamer.app">
+            Photo Tamer
+          </DescriptionLink>
           <p>Convert and resize images to JPG or PNG</p>
         </li>
       </ul>

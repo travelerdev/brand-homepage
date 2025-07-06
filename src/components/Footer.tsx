@@ -17,7 +17,10 @@ export default function Footer() {
               Support
             </Link>
             <span className="ml-3 text-gray-500">&bull;</span>
-            <a className="ml-3 text-gray-500" href="https://www.twitter.com/travelerdev">
+            <a
+              className="ml-3 text-gray-500"
+              href="https://www.twitter.com/travelerdev"
+            >
               <svg
                 fill="currentColor"
                 strokeLinecap="round"

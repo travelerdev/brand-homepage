@@ -10,7 +10,10 @@ export default function Home() {
     <div className="flex flex-col">
       <Head>
         <title>Traveler Dev Ltd.</title>
-        <meta name="description" content="Software wherever and whenever you need it." />
+        <meta
+          name="description"
+          content="Software wherever and whenever you need it."
+        />
       </Head>
       <section className="body-font min-h-screen flex-grow flex flex-col justify-center items-stretch">
         <div className="container px-5 py-8 mx-auto flex flex-wrap">

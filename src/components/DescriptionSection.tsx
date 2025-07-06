@@ -1,12 +1,15 @@
 import classnames from "classnames";
 import Link from "next/link";
-import { PropsWithChildren, ReactChild } from "react";
+import { PropsWithChildren, ReactNode } from "react";
 
 interface Props {
-  icon: ReactChild;
+  icon: ReactNode;
 }
 
-export const DescriptionSection = ({ icon, children }: PropsWithChildren<Props>) => {
+export const DescriptionSection = ({
+  icon,
+  children
+}: PropsWithChildren<Props>) => {
   return (
     <div className="flex flex-col mb-10 lg:items-start items-center">
       <div className="w-14 h-14 inline-flex items-center justify-center rounded-full bg-blue-500 text-white mb-5 p-2 dark:font-bold">
@@ -17,7 +20,7 @@ export const DescriptionSection = ({ icon, children }: PropsWithChildren<Props>)
   );
 };
 
-export const DescriptionTitle = ({ children }: PropsWithChildren<{}>) => {
+export const DescriptionTitle = ({ children }: PropsWithChildren) => {
   return (
     <h2 className="text-gray-900 dark:text-gray-100 text-lg title-font font-medium mb-3">
       {children}

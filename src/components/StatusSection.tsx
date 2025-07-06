@@ -8,9 +8,14 @@ const StatusSection = () => {
   const tz = "Europe/London";
 
   const [blinkOn, setBlinkOn] = useState(true);
-  const [currentTime, setCurrentTime] = useState<DateTime | undefined>(undefined);
-  const [currentStatus, setCurrentStatus] = useState<string>("Exploring outer space...");
-  const [currentFeatureColor, setCurrentFeatureColor] = useState<string>("feature-indigo");
+  const [currentTime, setCurrentTime] = useState<DateTime | undefined>(
+    undefined
+  );
+  const [currentStatus, setCurrentStatus] = useState<string>(
+    "Exploring outer space..."
+  );
+  const [currentFeatureColor, setCurrentFeatureColor] =
+    useState<string>("feature-indigo");
 
   const time = currentTime?.toLocaleString(DateTime.TIME_SIMPLE);
 

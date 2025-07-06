@@ -5,12 +5,17 @@ export default function Navbar() {
   return (
     <header className="text-gray-600 body-font border-b border-gray-100 bg-gray-50">
       <div className="container mx-auto flex flex-wrap p-5 flex-row md:flex-row items-center justify-between">
-        <Link href="/" className="flex title-font font-medium items-center mb-4 md:mb-0 colorful">
+        <Link
+          href="/"
+          className="flex title-font font-medium items-center mb-4 md:mb-0 colorful"
+        >
           <>
             <div className="rounded-full colorful-shadow">
               <Globey className="h-16 w-16" />
             </div>
-            <span className="ml-3 font-title font-bold text-xl">Traveler Dev</span>
+            <span className="ml-3 font-title font-bold text-xl">
+              Traveler Dev
+            </span>
           </>
         </Link>
         <Link

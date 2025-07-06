@@ -7,7 +7,9 @@ const ImagePane = () => {
         <Globe className="w-56 h-56" aria-label="A happy little globe" />
       </div>
       <h1 className="font-title font-bold text-5xl xl:text-6x">Traveler Dev</h1>
-      <p className="font-title mt-3 text-xl text-gray-500">Quality software will travel</p>
+      <p className="font-title mt-3 text-xl text-gray-500">
+        Quality software will travel
+      </p>
     </div>
   );
 };

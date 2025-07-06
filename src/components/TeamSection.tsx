@@ -1,4 +1,8 @@
-import { DescriptionLink, DescriptionSection, DescriptionTitle } from "./DescriptionSection";
+import {
+  DescriptionLink,
+  DescriptionSection,
+  DescriptionTitle
+} from "./DescriptionSection";
 
 const TeamSection = () => {
   return (
@@ -33,7 +37,9 @@ const TeamSection = () => {
       }
     >
       <DescriptionTitle>The Team</DescriptionTitle>
-      <p className="leading-relaxed text-base">Right now it&rsquo;s just Zack here.</p>
+      <p className="leading-relaxed text-base">
+        Right now it&rsquo;s just Zack here.
+      </p>
       <div>
         <DescriptionLink className="mt-3" href="https://zack.computer">
           Who&rsquo;s Zack?

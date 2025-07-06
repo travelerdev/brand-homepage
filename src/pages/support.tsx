@@ -7,7 +7,10 @@ export default function Home() {
     <div className="flex flex-col">
       <Head>
         <title>Traveler Dev Ltd. - Support</title>
-        <meta name="description" content="Get support for our software products." />
+        <meta
+          name="description"
+          content="Get support for our software products."
+        />
       </Head>
       <section className="body-font min-h-screen flex-grow flex flex-col justify-start items-stretch">
         <Navbar />
@@ -15,16 +18,22 @@ export default function Home() {
           <div className="max-w-prose">
             <h1 className="mx-auto text-4xl font-title">Here to Help</h1>
             <p className="prose mt-6">
-              Traveler Dev is a very small company. Indeed, most of the time it&rsquo;s just me,{" "}
-              <a href="https://www.zack.computer" rel="noreferrer noopener" target="_blank">
+              Traveler Dev is a very small company. Indeed, most of the time
+              it&rsquo;s just me,{" "}
+              <a
+                href="https://www.zack.computer"
+                rel="noreferrer noopener"
+                target="_blank"
+              >
                 Zack
               </a>
               .
             </p>
             <p className="prose mt-6">
-              Because we&rsquo;re so small, the quality of our software and the happiness of each
-              person using it is really important to us. If you&rsquo;re having an issue with one of
-              our products, please send an email or reach out on Twitter.
+              Because we&rsquo;re so small, the quality of our software and the
+              happiness of each person using it is really important to us. If
+              you&rsquo;re having an issue with one of our products, please send
+              an email or reach out on Twitter.
             </p>
             <div className="prose flex flex-row mt-6 items-center">
               <strong>Get help by email:</strong>
