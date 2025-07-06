@@ -1,17 +1,16 @@
-import Head from "next/head";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import { Metadata } from "next";
+import Footer from "../../components/Footer";
+import Navbar from "../../components/Navbar";
+
+export const metadata: Metadata = {
+  title: "Support",
+  description:
+    "Get support for our software products. Contact us via email or Twitter for help with any issues."
+};
 
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <Head>
-        <title>Traveler Dev Ltd. - Support</title>
-        <meta
-          name="description"
-          content="Get support for our software products."
-        />
-      </Head>
       <section className="body-font min-h-screen flex-grow flex flex-col justify-start items-stretch">
         <Navbar />
         <div className="container px-5 py-8 mx-auto flex-grow justify-center flex flex-col flex-wrap">

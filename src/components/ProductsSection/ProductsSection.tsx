@@ -2,9 +2,10 @@ import {
   DescriptionLink,
   DescriptionSection,
   DescriptionTitle
-} from "./DescriptionSection";
+} from "../DescriptionSection";
+import { HallOfFame } from "./HallOfFame";
 
-const ProductsSection = () => {
+export const ProductsSection = () => {
   return (
     <DescriptionSection
       icon={
@@ -41,26 +42,42 @@ const ProductsSection = () => {
       <DescriptionTitle>The Products</DescriptionTitle>
       <ul className="lg:pl-8 lg:list-disc">
         <li>
-          <DescriptionLink href="https://www.tweetsweep.app">
-            Tweet Sweep
-          </DescriptionLink>
-          <p>Delete your old tweets and keep your feed clean</p>
-        </li>
-        <li>
-          <DescriptionLink href="https://www.watchthatname.com">
-            Watch That Name
-          </DescriptionLink>
-          <p>Maintain a wishlist of your favorite domains</p>
-        </li>
-        <li>
           <DescriptionLink href="https://www.phototamer.app">
             Photo Tamer
           </DescriptionLink>
           <p>Convert and resize images to JPG or PNG</p>
         </li>
+        <li>
+          <p className="italic text-gray-700">
+            And several more in development now…
+          </p>
+        </li>
       </ul>
+      <HallOfFame>
+        <ul className="lg:pl-8 lg:list-disc">
+          <li>
+            <p className="notable-link">Tweet Sweep</p>
+            <p>
+              Delete your old tweets and keep your feed clean.
+              <br />
+              <span className="italic text-gray-700">
+                Sadly destroyed by the API changes at Twitter after 2023.
+              </span>
+            </p>
+          </li>
+          <li>
+            <p className="notable-link">Watch That Name</p>
+            <p>
+              Maintain a wishlist of your favorite domains.
+              <br />
+              <span className="italic text-gray-700">
+                Shuttered in favor of using other solutions like Instant Domain
+                Search.
+              </span>
+            </p>
+          </li>
+        </ul>
+      </HallOfFame>
     </DescriptionSection>
   );
 };
-
-export default ProductsSection;

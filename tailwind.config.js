@@ -23,6 +23,5 @@ module.exports = {
       opacity: ["dark"],
       fontWeight: ["dark"]
     }
-  },
-  plugins: [require("@tailwindcss/typography")]
+  }
 };
